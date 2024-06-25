@@ -33,18 +33,20 @@
 
     <Button
         android:id="@+id/btn_fornecedores"
-        android:layout_width="198dp"
-        android:layout_height="134dp"
+        android:layout_width="248dp"
+        android:layout_height="176dp"
         android:layout_marginStart="88dp"
         android:layout_marginTop="130dp"
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="92dp"
         android:onClick="abrir_fornecedores"
-        android:text="INF3GM"
+        android:text="INF3BM"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
 
     <Button
         android:id="@+id/btn_produtos"
